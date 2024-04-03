@@ -7,6 +7,7 @@ import Footer from "@/components/SheardComponents/Footer/Footer";
 
 
 
+
 const inter = Roboto_Serif({ subsets: ["latin"], weight: ["100","300", "400", "500", "700"] });
 
 export const metadata = {
@@ -17,9 +18,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* head line start */}
       <head>
       <Script src="https://kit.fontawesome.com/816fadddff.js" crossorigin="anonymous"></Script>
       </head>
+      {/* head line end */}
       <body className={inter.className}>
 
        <Navbar/>
