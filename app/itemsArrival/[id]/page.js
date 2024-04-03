@@ -3,7 +3,7 @@ import "./singleProductBy.css";
 
 const DinamicDetailsSingleItems = () => {
   return (
-    <div className="pt-16 bg-white">
+    <div className="pt-16">
       <section className="mx-8 lg:mx-24 xl:mx-24 md:mx-12">
         <div className="my-1">
           <p className="opacity-75">Nylon shopper bag with pockets</p>

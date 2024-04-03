@@ -1,19 +1,19 @@
-import React from "react";
-import "../globals.css";
 import Link from "next/link";
+import React from "react";
 
-const ItemsAirrval = () => {
+const TheShop = () => {
   return (
     <div className="mx-10 lg:mx-24 pt-20 pb-10">
-      {/* headLine */}
-
-      <div className="text-center">
-        <p className="latestProductText">LATEST PRODUCTS</p>
-        <h1 className="HeadLine">New Arrivals</h1>
-      </div>
-
-      {/* Items Show*/}
-      <section className="my-6 mx-3">
+         <div className="text-center">
+          <p className="latestProductText">TOP PRODUCTS</p>
+          <h1 className="HeadLine">The Shop</h1>
+        </div>
+        <div>
+            <div>
+                
+            </div>
+        </div>
+        <section className="my-6 mx-3">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
           <div className="cardMainDivTow">
             <div className="imageDivTow">
@@ -261,9 +261,9 @@ const ItemsAirrval = () => {
             </div>
           </div>
         </div>
-      </section>
+        </section>
     </div>
   );
 };
 
-export default ItemsAirrval;
+export default TheShop;
