@@ -1,0 +1,122 @@
+/* .productShowMainDiv{
+  width: 100%;
+  height: 100vh;   
+} */
+.itemDispleLarzeDiv{
+  width: 100%;
+  height: 85vh;
+}
+.itemDispleLarzeImage{
+    width: 100%;
+    height: 100%;
+}
+.itemsSideImgDiv{
+    width: 100%;
+    height: 15vh;
+}
+.itemsSideImg{
+    width: 100%;
+    height: 100%;
+}
+.itemsNameHeadLine{
+  font-size: 46px;
+  font-weight: 500px;
+  color: #000000;
+}
+.singleItemsPrice{
+  font-size: 36px;
+  font-weight: 400;
+  color: #666666;
+}
+.itemsDetails{
+  border-top: 0.1px solid rgb(197, 195, 195);
+}
+.sizeText{
+  color: #000000;
+}
+.sixeButton{
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+.sixeButton:hover{
+  background-color: #000000;
+  color: white;
+}
+.itemsAddToCardButton{
+  width: 100%;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.itemsAddToCardButton:hover{
+  background-color: #000000;
+  color: white;
+  font-weight: 500;
+}
+.itemsBuyNowButton{
+  width: 390px;
+  background-color: #000000;
+  color: white;
+}
+.paymentMethodIconDiv{
+  width: 100px;
+  height: 100px;
+}
+.paymentMethodIcon{
+  width: 100%;
+  height: 50%;
+}
+.reviewPolicyTextDiv{
+  width: 78%;
+}
+.reviewImageDiv{
+  width: 15vw;
+  height: 30vh;
+}
+.reviewImage{
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .reviewPolicyTextDiv{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .itemDispleLarzeDiv{
+    width: 100%;
+    height: 65vh;
+  }
+  .itemDispleLarzeImage{
+      width: 100%;
+      height: 100%;
+  }
+  .itemsSideImgDiv{
+      width: 100%;
+      height: 10vh;
+  }
+  .itemsNameHeadLine{
+    font-size: 36px;
+    font-weight: 500px;
+    color: #000000;
+  }
+  .singleItemsPrice{
+    font-size: 26px;
+    font-weight: 400;
+    color: #666666;
+  }
+  .itemsBuyNowButton{
+    width: 310px;
+    background-color: #000000;
+    color: white;
+  }
+  .reviewImageDiv{
+    width: 25vw;
+    height: 15vh;
+  }
+  .reviewImage{
+    width: 100%;
+    height: 100%;
+  }
+}

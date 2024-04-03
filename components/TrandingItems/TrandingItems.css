@@ -1,0 +1,187 @@
+.text-muteColor{
+    color: rgb(148,163,184);
+}
+.cardButtonDiv{
+    background-color: rgba(255, 255, 255, 0);   
+}
+.card-body{
+    background-color: rgba(240, 248, 255, 0) !important;
+}
+.cardMainDiv{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.imageDiv{
+    width: 100%;
+    height: 45vh;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 10px rgba(209, 206, 206, 0.879);
+}
+.trandingImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.offerTagDiv{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 45vh;
+    /* background-color: rgba(0, 0, 0, 0.297); */
+    border-radius: 15px;
+    opacity: 100%;
+    transition: 0.4s ease-in-out;
+
+}
+.newTag{
+  color: #FDF4F4;
+  background-color: #EA580C;
+
+}
+.offerTag{
+    background-color: #EA580C;
+}
+.stockInTag{
+    background-color: #059669;
+}
+.stockOutTag{
+    background-color: red;
+}
+.cardAddToDiv{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 45vh;
+    /* background-color: rgba(0, 0, 0, 0.297); */
+    border-radius: 15px;
+    opacity: 0%;
+    transition: 0.4s ease-in-out;
+}
+
+.byNowButtonItems{
+    width: 100%;
+    height: 100%;
+}
+.cardButtonDiv{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    opacity: 0%;
+    transition: 0.4s ease-in-out;
+}
+.iTemsByButton{
+    background-color:  black;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    /* box-shadow: 2px 2px 10px rgb(194, 193, 193); */
+}
+.itamsDetailsDive{
+    cursor: pointer;
+}
+.cardMainDiv:hover .cardAddToDiv{
+    opacity: 100%;
+}
+.cardMainDiv:hover .cardButtonDiv{
+    opacity: 100%;
+}
+.itamsDetailsDive:hover .cardAddToDiv{
+    opacity: 100%;
+}
+/* .itamsDetailsDive:hover .cardButtonDiv{
+    opacity: 100%;
+} */
+.iconP{
+    background-color: rgba(249, 250, 250, 0.968);
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px rgb(28, 27, 27);
+}
+.itemName{
+    font-weight: 600;
+    font-size: 18px;
+}
+.itemsMoney{
+    font-weight: 500;
+    font-size: 16px;
+}
+.starDiv{
+   color:  rgb(251,191,36);
+}
+.itamsDetailsDive{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 612px){
+    /* .cardMainDiv{
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+    .imageDiv{
+        width: 100%;
+        height: 50vh;
+        border-radius: 15px;
+        box-shadow: 0.1px 0.1px 10px rgba(209, 206, 206, 0.879);
+    } */
+    .cardMainDiv{
+        position: relative;
+        width: 100%;
+        height: 45vh;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+    .imageDiv{
+        width: 100%;
+        height: 35vh;
+        border-radius: 15px;
+        box-shadow: 0.1px 0.1px 10px rgba(209, 206, 206, 0.879);
+    }
+    .cardAddToDiv{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 35vh;
+        /* background-color: rgba(0, 0, 0, 0.089); */
+        border-radius: 180px;
+        opacity: 0%;
+        transition: 0.4s ease-in-out;
+    }
+    .itemName{
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .itemsMoney{
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .iconP{
+        /* font-size: x-small; */
+        background-color: rgba(249, 250, 250, 0.968);
+        border-radius: 50px;
+        box-shadow: 2px 2px 10px rgb(28, 27, 27);
+    }
+    .starDiv{
+        font-size: x-small;
+    }
+    .iTemsByButton{
+        background-color:  black;
+        font-size: 14px;
+        border-radius: 5px;
+        font-weight: 500;
+        color: white;
+        padding: 4px;
+        /* box-shadow: 2px 2px 10px rgb(194, 193, 193); */
+    }
+}

@@ -25,9 +25,178 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+.latestProductText{
+  color: #BFBFBF;
+  font-size: 16px;
+  font-weight: 600;
+}
+.HeadLine{
+  color: #000000;
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+/* .arrivalCardMainDiv{
+  cursor: pointer;
+}
+.arrivalCardBody{ 
+  position: relative;
+  width: 100%;
+  height: 45vh;
+}
+.arrivalImageDiv{ 
+  width: 100%;
+  height: 45vh;
+} */
+/* .arrivalImage{
+  width: 100%;
+  height: 100%;
+}
+.buyNowOrAddToCardDiv{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 45vh;
+} */
+/* .addToCardDiv{
+  width: 100%;
+  height: 45vh;
+  background-color: #0000000f;
+  opacity: 0%;
+}
+.cardIcon{
+  background-color: white;
+  padding: 14px 15px;
+  border-radius: 50px;
+}
+.byNowButtonDiv{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+} */
+
+/* .arrivalCardBody .byNowButtonDiv:hover{
+  opacity: 100%;
+} */
+/* .arrivalCardMainDiv:hover .addToCardDiv{
+  opacity: 100%;
+}
+
+.arrivalCardMainDiv:hover .arrivalByNowButtonDiv{
+  opacity: 100%;
+} */
+
+/* 2nd try */
+.cardMainDivTow{
+  cursor: pointer;
+}
+.imageDivTow{
+  position: relative;
+   width: 100%;
+   height: 45vh;
+}
+.actionDivTow{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 45vh;
+  background-color: #0000000f;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.cardIcon{
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 50px;
+}
+.buttonDiv{
+  position: absolute;
+  bottom: 0;
+  padding: 18px;
+  display: none;
+  transition: 0.3s ease-in-out;
+}
+.arrivalByNowButtonDiv{
+  background-color: white;
+  color: #000000;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  /* opacity: 0%; */
+}
+.cardMainDivTow:hover .actionDivTow{
+  opacity: 100%;
+}
+.cardMainDivTow:hover .buttonDiv{
+  display: block;
+}
+/* .healfeDetailsDiv{
+
+} */
+.arrivalCategoryText{
+  color: #666666;
+}
+
+
+/* media */
+@media only screen and (max-width: 1024px){
+  .latestProductText{
+    color: #BFBFBF;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .HeadLine{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  .cardMainDivTow{
+    cursor: pointer;
+  }
+  .imageDivTow{
+    position: relative;
+     width: 100%;
+     height: 35vh;
+  }
+  .actionDivTow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 35vh;
+    background-color: #0000000f;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  .cardIcon{
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 50px;
+  }
+  .buttonDiv{
+    position: absolute;
+    bottom: 0;
+    padding: 18px;
+    display: none;
+    transition: 0.3s ease-in-out;
+  }
+  .arrivalByNowButtonDiv{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    /* opacity: 0%; */
   }
 }

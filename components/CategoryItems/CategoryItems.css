@@ -1,0 +1,11 @@
+
+
+.card.image-full:before {
+    position: relative;
+    content: "";
+    z-index: 10;
+    border-radius: var(--rounded-box, 1rem);
+    --tw-bg-opacity: 1;
+    background-color: normal !important;
+    opacity: 0% !important;
+}

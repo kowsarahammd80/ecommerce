@@ -1,7 +1,13 @@
-import { Inter } from "next/font/google";
+import { Roboto_Serif } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
+import Navbar from "@/components/SheardComponents/Navbar/Navbar";
+import Footer from "@/components/SheardComponents/Footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+
+
+
+const inter = Roboto_Serif({ subsets: ["latin"], weight: ["100","300", "400", "500", "700"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +17,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+      <Script src="https://kit.fontawesome.com/816fadddff.js" crossorigin="anonymous"></Script>
+      </head>
+      <body className={inter.className}>
+
+       <Navbar/>
+        {children}
+       <Footer/>
+      </body>
     </html>
   );
 }

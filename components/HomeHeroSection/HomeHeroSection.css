@@ -1,0 +1,219 @@
+.slideDiv{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.heroSlidImgDiv{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.slidImg{
+  width: 100%;
+  height: 100%;
+}
+.slideTextContentMainDiv{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.064);
+}
+.contenTextDiv{
+  height: 100vh; 
+}
+.heroTagText{
+  color: #000000;
+  font-size: 21px;
+  font-weight: 500;
+  opacity: 66%;
+}
+.hero2ndTagText{
+  color: #000000;
+  font-size: 95px;
+  font-weight: 700;
+  line-height: 100px;
+}
+.heroButton{
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.slidTextDiv{
+  width: 53%;
+}
+.sliderTextMainDiv{
+  width: 100%;
+  height: 95vh;
+  background-color: rgba(0, 0, 0, 0.064);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.sliderTextDiv{
+  width: 50%;
+  text-align: start;
+  /* backdrop-filter: blur(5px); */
+  padding: 25px;
+  /* text-shadow: 2px 2px 2px black; */
+}
+.eatFresh{
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: #4c9f19;
+  font-weight: 500;
+}
+.learMoreButton{
+  background-color: #59b91dba;
+  padding: 10px 35px;
+  border-radius: 20px;
+  color: #F5F5F5;
+  font-weight: 600;
+}
+.goShopButton{
+  background-color: #ff6251e2;
+  padding: 10px 40px;
+  border-radius: 20px;
+  color: #F5F5F5;
+  font-weight: 600;
+}
+.yourDailyNeeds{
+  color: #F5F5F5;
+  font-size: 63px;
+  font-weight: 600;
+}
+.heroSliderheadLine{
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 38px;
+}
+.homeHeroPeratext{
+  font-size: smaller;
+  width: 65%;
+  font-weight: 500;
+  color: #F5F5F5;
+}
+.heroSliderPera{
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 22px;
+}
+.sliderImage{
+ width: 100%;
+ height: 100%;
+}
+.HeroExploreButton{
+   background-color: aliceblue;
+   color: black;
+   font-size: 18px;
+   padding: 6px 12px;
+   font-weight: 600;
+   border-radius: 9px;
+   box-shadow: 10px 10px 15px black;
+   transition: 0.3s ease-in-out;
+}
+.HeroExploreButton:hover{
+   background-color: black;
+   color: #FFFFFF;
+   padding: 6px 12px;
+   font-weight: 600;
+   border-radius: 9px;
+}
+
+@media only screen and (max-width: 1024px){
+    .slideDiv{
+        width: 100%;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+    }
+    .heroSlidImgDiv{
+      position: relative;
+      width: 100%;
+      height: 50vh;
+    }
+    .slidImg{
+      width: 100%;
+      height: 100%;
+    }
+    .slideTextContentMainDiv{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 50vh;
+      background-color: rgba(0, 0, 0, 0.064);
+    }
+    .sliderTextMainDiv{
+      width: 100%;
+      height: 50vh;
+      background-color: rgba(0, 0, 0, 0.064);
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+    .slidTextDiv{
+      width: 90%;
+    }
+    .heroTagText{
+      color: #000000;
+      font-size: 12px;
+      font-weight: 400;
+      opacity: 66%;
+    }
+    .contenTextDiv{
+      height: 50vh; 
+    }
+    .hero2ndTagText{
+      color: #000000;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 45px;
+    }
+    .HeroExploreButton{
+      background-color: aliceblue;
+      color: black;
+      font-size: 18px;
+      padding: 6px 12px;
+      font-weight: 600;
+      border-radius: 9px;
+      box-shadow: 10px 10px 15px black;
+      transition: 0.3s ease-in-out;
+   }
+   .heroButton{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+    /*  */
+
+
+
+    .sliderTextDiv{
+        width: 95%;
+        text-align: center;
+        /* backdrop-filter: blur(5px); */
+        padding: 25px;
+      }
+      .heroSliderheadLine{
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 28px;
+      }
+      .heroSliderPera{
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .homeHeroPeratext{
+      font-size: smaller;
+      width: 100%;
+      font-weight: 500;
+      color: #F5F5F5;
+    }
+}

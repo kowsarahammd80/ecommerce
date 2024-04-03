@@ -1,0 +1,188 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 63px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+/* header .responsive_nav {
+	transform: translateY(100vh);
+} */
+.navBar-background{
+	background-color: #FFFFFF;
+}
+/* .navTeaxt{
+	color: black;
+    margin-left: 50px;
+} */
+.navlinkText{
+	color: #2f333d;
+}
+nav a {
+	margin: 0 1.8rem;	
+    color: black;
+	text-decoration: none;
+	transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+	color: rgba(2, 2, 2, 0.897);
+	margin-top: -5px;
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: rgba(0, 0, 0, 0.427);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.5rem;
+}
+.navLink-hover{
+  cursor: pointer;
+}
+.nav-link{
+  background-color: unset;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 150px;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.brand-name-text{
+	color: black;
+}
+/* .navLogo-set{
+	width: 15vw;
+} */
+.navLogoDiv{
+	width: 80%;
+	height: 5vh;
+}
+.navLog{
+	width: 100%;
+	height: 100%;
+}
+.resumeButton{
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 500;
+	color: #f6316f97;
+	background-color: rgb(31,34,38);
+	padding: 4px 15px;
+	border: 3px solid #1e2024;
+	box-shadow:  -2px -2px 5px rgba(199, 198, 198, 0.282), 
+	 2px 2px 5px rgb(44, 44, 44), 
+	 inset -2px -2px 5px rgba(204, 204, 204, 0.271),
+	 inset 2px 2px 5px rgba(35, 33, 33, 0.101);
+	border-radius: 4px;
+	transition: 0.5s ease-in-out;
+}
+.resumeButton span{
+	color: #E6054B;
+}
+.resumeButton:hover{
+	color: #E6054B;
+	margin-top: -5px;
+	box-shadow: 15px 15px 15px rgb(10, 10, 14);
+}
+.navAvatar{
+	position: relative;
+	/* width: 35px;
+	height: 35px; */
+	border-radius: 50px;
+	/* border: 2px solid rgba(0, 0, 0, 0.358); */
+}
+.navAvatarImage{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50px;
+}
+.cartNoti{
+	position: absolute;
+	top: 0px;
+	font-size: 9px;
+	font-weight: 600;
+	/* padding: 1px 5px; */
+	right: 0px;
+	color: white;
+	background-color: #000000;
+	border-radius: 50px;
+}
+.haertIcon{
+	padding: 2px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+	.navBar-background{
+		background-color: #FFFFFF;
+	}
+
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+		color: black;
+		/* background-color: #1d1f22; */
+		padding: 0px 8px;
+		/* box-shadow:  -2px -2px 5px rgba(199, 198, 198, 0.282), 
+	2px 2px 5px rgb(44, 44, 44), 
+	 inset -2px -2px 5px rgba(204, 204, 204, 0.271),
+	 inset 2px 2px 5px rgba(35, 33, 33, 0.101);
+	 border: #0f1012; */
+	}
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 0.9rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+	}
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+		color: black;
+	}
+  .nav-link{
+	background-color: #FFFFFF;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: start;
+	margin-left: 0px;
+  }  
+	nav a {
+		text-align: start;
+		font-size: 1rem;
+		
+	}
+	.navLogo-set{
+		width: 38vw;
+	}
+	.footerLogo-set{
+		width: 100%;
+		height: 10vh;
+	}
+}
