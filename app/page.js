@@ -11,7 +11,7 @@ const Home =() => {
 
   return (
 
-    <main className="">
+    <main className="bg-white">
         <HomeHeroSection/> 
         <ItemsAirrval/>
         <Branding/>
