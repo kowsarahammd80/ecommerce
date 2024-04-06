@@ -1,25 +1,19 @@
 import HomeHeroSection from "@/components/HomeHeroSection/HomeHeroSection";
 import ItemsAirrval from "./itemsArrival/page";
 import Branding from "@/components/Branding/Branding";
-import TheShop from "./theShop/page";
-
-
-
+import TheShopSection from "@/components/TheShopSection/TheShopSection";
 
 
 const Home =() => {
-
   return (
-
-    <main className="bg-white">
-        <HomeHeroSection/> 
+    <main className="">
+        <HomeHeroSection/>
         <ItemsAirrval/>
         <Branding/>
-        <TheShop/>
+        {/* <TheShopItemsAll/> */}
+        <TheShopSection/>
     </main>
-
-  );
-  
+  ); 
 }
 
 export default Home;

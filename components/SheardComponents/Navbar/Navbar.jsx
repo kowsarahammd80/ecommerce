@@ -31,24 +31,18 @@ const Navbar = () => {
           onClick={showNavbar}
           className="nav-link mt-0 lg:mt-2 xl:mt-2"
         >
-        
-            <Link  className="navLink-hover" href="/">
-              Home
-            </Link>
-            <Link
-             
-              className="navLink-hover"
-              href="/itemsArrival"
-            >
-              Shope
-            </Link>
-            <Link  className="navLink-hover" href="">
-              Best Sell
-            </Link>
-            <Link onClick={showNavbar} className="navLink-hover" href="">
-              Contact
-            </Link>
-         
+          <Link className="navLink-hover" href="/">
+            Home
+          </Link>
+          <Link className="navLink-hover" href="/theShop/2">
+            Shope
+          </Link>
+          <Link className="navLink-hover" href="/itemsArrival">
+            Best Sell
+          </Link>
+          <Link onClick={showNavbar} className="navLink-hover" href="">
+            Contact
+          </Link>
 
           <button className="nav-btn nav-close-btn">
             <i class="fa-regular fa-circle-xmark"></i>

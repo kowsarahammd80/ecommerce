@@ -1,10 +1,32 @@
 import React from "react";
-import Link from "next/link";
 
-
-const TheShopItemsAll = () => {
+const TheShopSection = () => {
   return (
-    <div className="mx-24">
+    <div>
+      <div>
+        <div className="text-center">
+          <h1 className="HeadLine">The Shop</h1>
+          <p className="latestProductText">TOP PRODUCTS CHOOSE YOUR CATEGORY</p>
+        </div>
+        <div className="flex justify-center">
+          <div className="my-5">
+            <button className="bg-black text-white py-1 px-3 me-2 rounded-lg">
+              T-Shirt
+            </button>
+            <button className="bg-black text-white py-1 px-3 me-2 rounded-lg">
+              Shirt
+            </button>
+            <button className="bg-black text-white py-1 px-3 me-2 rounded-lg">
+              Panjabi
+            </button>
+            <button className="bg-black text-white py-1 px-3 me-2 rounded-lg">
+              Pant
+            </button>
+          </div>
+        </div>
+      </div>
+      <section>
+      <div className="mx-24">
       <section className="my-6 mx-3">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
           <div className="cardMainDivTow">
@@ -56,9 +78,7 @@ const TheShopItemsAll = () => {
                 </div>
               </div>
               <div className="buttonDiv w-full">
-                <Link href="/itemsArrival/1">
                   <button className="arrivalByNowButtonDiv">Buy Now</button>
-                </Link>
               </div>
             </div>
             <div className="arrivalHealfDetialsDiv">
@@ -117,9 +137,7 @@ const TheShopItemsAll = () => {
                 </div>
               </div>
               <div className="buttonDiv w-full">
-                <Link href="/itemsArrival/1">
                   <button className="arrivalByNowButtonDiv">Buy Now</button>
-                </Link>
               </div>
             </div>
             <div className="arrivalHealfDetialsDiv">
@@ -178,9 +196,7 @@ const TheShopItemsAll = () => {
                 </div>
               </div>
               <div className="buttonDiv w-full">
-                <Link href="/itemsArrival/1">
                   <button className="arrivalByNowButtonDiv">Buy Now</button>
-                </Link>
               </div>
             </div>
             <div className="arrivalHealfDetialsDiv">
@@ -240,9 +256,7 @@ const TheShopItemsAll = () => {
                 </div>
               </div>
               <div className="buttonDiv w-full">
-                <Link href="/itemsArrival/1">
                   <button className="arrivalByNowButtonDiv">Buy Now</button>
-                </Link>
               </div>
             </div>
             <div className="arrivalHealfDetialsDiv">
@@ -255,7 +269,9 @@ const TheShopItemsAll = () => {
         </div>
       </section>
     </div>
+      </section>
+    </div>
   );
 };
 
-export default TheShopItemsAll;
+export default TheShopSection;
