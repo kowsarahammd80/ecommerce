@@ -1,39 +1,38 @@
-"use client"
+"use client";
 
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectFade } from 'swiper/modules';
-import './HomeHeroSection.css'
-import 'swiper/css/bundle';
-
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade } from "swiper/modules";
+import "./HomeHeroSection.css";
+import "swiper/css/bundle";
+import Link from "next/link";
 
 
 const HomeHeroSection = () => {
+  // const settings = {
+  //     dots: true,
+  //     infinite: true,
+  //     slidesToShow: 1,
+  //     slidesToScroll: 1,
+  //     autoplay: true,
+  //     speed: 2000,
+  //     autoplaySpeed: 4000,
+  //     cssEase: "fade"
+  //   };
 
-    // const settings = {
-    //     dots: true,
-    //     infinite: true,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     speed: 2000,
-    //     autoplaySpeed: 4000,
-    //     cssEase: "fade"
-    //   };
-    
-    return (
-        <div className='pt-16'>
-            <div>
-            <Swiper
-      // install Swiper modules
-      slidesPerView={1}
-      loop
-      effect='fade'
-      autoplay
-      speed="4000"
-      modules={[EffectFade, Autoplay]}
-    >
-      {/* <SwiperSlide className='slideDiv'><div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/d4f7tFP/banner2-img-min-1.jpg)`
+  return (
+    <div className="pt-16">
+      <div>
+        <Swiper
+          // install Swiper modules
+          slidesPerView={1}
+          loop
+          effect="fade"
+          autoplay
+          speed="4000"
+          modules={[EffectFade, Autoplay]}
+        >
+          {/* <SwiperSlide className='slideDiv'><div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/d4f7tFP/banner2-img-min-1.jpg)`
       }}>
 
         <div className='sliderTextMainDiv'>
@@ -55,7 +54,7 @@ const HomeHeroSection = () => {
 
         </div>
         </SwiperSlide> */}
-      {/* <SwiperSlide className='slideDiv'><div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/d4f7tFP/banner2-img-min-1.jpg)`
+          {/* <SwiperSlide className='slideDiv'><div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/d4f7tFP/banner2-img-min-1.jpg)`
       }}>
 
         <div className='sliderTextMainDiv'>
@@ -68,7 +67,7 @@ const HomeHeroSection = () => {
 
         </div>
         </SwiperSlide> */}
-{/* 
+          {/* 
       <SwiperSlide className='slideDiv'><div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/1dW2ccN/banner3-img-min-1-1.jpg)`
       }}>
 
@@ -82,27 +81,35 @@ const HomeHeroSection = () => {
 
         </div>
         </SwiperSlide> */}
-      <SwiperSlide className='slideDiv'>
-        
-        <div className='heroSlidImgDiv'>  
-            <img className='slidImg' src="https://mixtas.novaworks.net/wp-content/uploads/2024/01/m2_slide_01-scaled.jpg" alt="" />
-        </div>
+          <SwiperSlide className="slideDiv">
+            <div className="heroSlidImgDiv">
+              <img
+                className="slidImg"
+                src="https://mixtas.novaworks.net/wp-content/uploads/2024/01/m2_slide_01-scaled.jpg"
+                alt=""
+              />
+            </div>
 
-        <div className='slideTextContentMainDiv'>
-            <div className='flex justify-center lg:justify-start items-center contenTextDiv mx-0 lg:mx-24 xl:mx-24'>
-              <div className='slidTextDiv text-start lg:text-start xl:text-start md:text-start'>
-                  <h1 className='heroTagText'>NEW ARRIVALS</h1>
-                  <h1 className='hero2ndTagText'>Stylish</h1>
-                  <p className='hero2ndTagText w-72 lg:w-full'>Comfort for Fall Night</p>
-                    <div className='my-3 lg:my-5'>
-                        <button className='heroButton px-3 lg:px-6 xl:px-6 py-1 lg:py-3 rounded-sm'>Shop Now</button>
-                     </div>
+            <div className="slideTextContentMainDiv">
+              <div className="flex justify-center lg:justify-start items-center contenTextDiv mx-0 lg:mx-24 xl:mx-24">
+                <div className="slidTextDiv text-start lg:text-start xl:text-start md:text-start">
+                  <h1 className="heroTagText">NEW ARRIVALS</h1>
+                  <h1 className="hero2ndTagText">Stylish</h1>
+                  <p className="hero2ndTagText w-72 lg:w-full">
+                    Comfort for Fall Night
+                  </p>
+                  <div className="my-3 lg:my-5">
+                    <Link href="/theShop/1">
+                      <button className="heroButton px-3 lg:px-6 xl:px-6 py-1 lg:py-3 rounded-sm">
+                        Shop Now
+                      </button>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
-            
-        </div>
-        
-        {/* <div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/1dW2ccN/banner3-img-min-1-1.jpg)`
+
+            {/* <div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/1dW2ccN/banner3-img-min-1-1.jpg)`
       }}>
         
 
@@ -115,28 +122,34 @@ const HomeHeroSection = () => {
          </div>
 
         </div> */}
-        </SwiperSlide> 
-      <SwiperSlide className='slideDiv'>
-        
-        <div className='heroSlidImgDiv'>  
-            <img className='slidImg' src="https://mixtas.novaworks.net/wp-content/uploads/2024/01/m2_slide_02-scaled.jpg" alt="" />
-        </div>
+          </SwiperSlide>
+          <SwiperSlide className="slideDiv">
+            <div className="heroSlidImgDiv">
+              <img
+                className="slidImg"
+                src="https://mixtas.novaworks.net/wp-content/uploads/2024/01/m2_slide_02-scaled.jpg"
+                alt=""
+              />
+            </div>
 
-        <div className='slideTextContentMainDiv'>
-            <div className='flex justify-center lg:justify-start items-center contenTextDiv mx-0 lg:mx-24 xl:mx-24'>
-              <div className='slidTextDiv text-start lg:text-start xl:text-start md:text-start'>
-                  <h1 className='heroTagText'>NEW ARRIVALS</h1>
-                  <h1 className='hero2ndTagText'>Stylish</h1>
-                  <p className='hero2ndTagText w-72 lg:w-full'>Comfort for Fall Night</p>
-                    <div className='my-3 lg:my-5'>
-                        <button className='heroButton px-3 lg:px-6 xl:px-6 py-1 lg:py-3 rounded-sm'>Shop Now</button>
-                     </div>
+            <div className="slideTextContentMainDiv">
+              <div className="flex justify-center lg:justify-start items-center contenTextDiv mx-0 lg:mx-24 xl:mx-24">
+                <div className="slidTextDiv text-start lg:text-start xl:text-start md:text-start">
+                  <h1 className="heroTagText">NEW ARRIVALS</h1>
+                  <h1 className="hero2ndTagText">Stylish</h1>
+                  <p className="hero2ndTagText w-72 lg:w-full">
+                    Comfort for Fall Night
+                  </p>
+                  <div className="my-3 lg:my-5">
+                    <button className="heroButton px-3 lg:px-6 xl:px-6 py-1 lg:py-3 rounded-sm">
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-            
-        </div>
-        
-        {/* <div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/1dW2ccN/banner3-img-min-1-1.jpg)`
+
+            {/* <div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/1dW2ccN/banner3-img-min-1-1.jpg)`
       }}>
         
 
@@ -149,28 +162,34 @@ const HomeHeroSection = () => {
          </div>
 
         </div> */}
-        </SwiperSlide> 
-      <SwiperSlide className='slideDiv'>
-        
-        <div className='heroSlidImgDiv'>  
-            <img className='slidImg' src="https://mixtas.novaworks.net/wp-content/uploads/2024/01/m2_slide_03-scaled.jpg" alt="" />
-        </div>
+          </SwiperSlide>
+          <SwiperSlide className="slideDiv">
+            <div className="heroSlidImgDiv">
+              <img
+                className="slidImg"
+                src="https://mixtas.novaworks.net/wp-content/uploads/2024/01/m2_slide_03-scaled.jpg"
+                alt=""
+              />
+            </div>
 
-        <div className='slideTextContentMainDiv'>
-            <div className='flex justify-center lg:justify-start items-center contenTextDiv mx-0 lg:mx-24 xl:mx-24'>
-              <div className='slidTextDiv text-start lg:text-start xl:text-start md:text-start'>
-                  <h1 className='heroTagText'>NEW ARRIVALS</h1>
-                  <h1 className='hero2ndTagText'>Stylish</h1>
-                  <p className='hero2ndTagText w-72 lg:w-full'>Comfort for Fall Night</p>
-                    <div className='my-3 lg:my-5'>
-                        <button className='heroButton px-3 lg:px-6 xl:px-6 py-1 lg:py-3 rounded-sm'>Shop Now</button>
-                     </div>
+            <div className="slideTextContentMainDiv">
+              <div className="flex justify-center lg:justify-start items-center contenTextDiv mx-0 lg:mx-24 xl:mx-24">
+                <div className="slidTextDiv text-start lg:text-start xl:text-start md:text-start">
+                  <h1 className="heroTagText">NEW ARRIVALS</h1>
+                  <h1 className="hero2ndTagText">Stylish</h1>
+                  <p className="hero2ndTagText w-72 lg:w-full">
+                    Comfort for Fall Night
+                  </p>
+                  <div className="my-3 lg:my-5">
+                    <button className="heroButton px-3 lg:px-6 xl:px-6 py-1 lg:py-3 rounded-sm">
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-            
-        </div>
-        
-        {/* <div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/1dW2ccN/banner3-img-min-1-1.jpg)`
+
+            {/* <div className='slideDiv' style={{ backgroundImage: `url(https://i.ibb.co/1dW2ccN/banner3-img-min-1-1.jpg)`
       }}>
         
 
@@ -183,8 +202,8 @@ const HomeHeroSection = () => {
          </div>
 
         </div> */}
-        </SwiperSlide> 
-      {/* <SwiperSlide className='slideDiv'>
+          </SwiperSlide>
+          {/* <SwiperSlide className='slideDiv'>
         
         <div className='heroSlidImgDiv'>  
             <img className='slidImg' src="https://mixtas.novaworks.net/wp-content/uploads/2024/01/m2_slide_02-scaled.jpg" alt="" />
@@ -228,13 +247,10 @@ const HomeHeroSection = () => {
         
         
         </SwiperSlide>  */}
-  
-    </Swiper>
-            </div>
-
-
-        </div>
-    );
+        </Swiper>
+      </div>
+    </div>
+  );
 };
 
 export default HomeHeroSection;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Branding.css";
+import Link from "next/link";
 
 const Branding = () => {
   return (
@@ -16,8 +17,15 @@ const Branding = () => {
               <p className="text-white text-lg lg:text-3xl xl:text-3xl md:text-lg font-semibold mb-3 mx-6 lg:mx-24">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <p className="text-white text-sm font-extralight lg:text-xl xl:text-xl md:text-sm mb-3 mx-10 lg:mx-24 xl:mx-24 md:mx-10">Upgrade your style with our curated sets. Choose confidence, embrace your unique look.</p>
-              <button className="border bg-white py-1 lg:py-2 px-3 lg:px-6 font-semibold text-sm rounded"> Shop Now </button>
+              <p className="text-white text-sm font-extralight lg:text-xl xl:text-xl md:text-sm mb-3 mx-10 lg:mx-24 xl:mx-24 md:mx-10">
+                Upgrade your style with our curated sets. Choose confidence,
+                embrace your unique look.
+              </p>
+              <Link href='/theShop/1'>
+                <button className="border bg-white py-1 lg:py-2 px-3 lg:px-6 font-semibold text-sm rounded">
+                  Shop Now
+                </button>
+              </Link>
             </div>
           </div>
         </div>
