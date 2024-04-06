@@ -93,7 +93,7 @@ const DinamicDetailsSingleItems = () => {
                   <i class="fa-solid fa-minus"></i>
                 </button>
                 <span className="text-lg opacity-60">1</span>
-                <button className="py-2 lg:py-3 xl:py-3 md:py-2 px-5 lg:px-8 xl:px-8 md:px-6 text-lg opacity-50">
+                <button className="py-2 lg:py-3 xl:py-3 md:py-2 px-4 lg:px-8 xl:px-8 md:px-6 text-lg opacity-50">
                   <i class="fa-solid fa-plus"></i>
                 </button>
               </div>
