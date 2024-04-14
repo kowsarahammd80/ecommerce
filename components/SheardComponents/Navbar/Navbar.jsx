@@ -88,7 +88,7 @@ const Navbar = () => {
             <span className="cartNoti px-1">5</span>
           </Link>
 
-          <Link href="" className="navAvatar me-4 lg:me-0 xl:me-0 md:me-0">
+          <Link href="/userProfile" className="navAvatar me-4 lg:me-0 xl:me-0 md:me-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
