@@ -34,7 +34,7 @@ const UserProfileNav = () => {
             <p className="border-b text-center p-1"><span></span> Orders</p>
             <p className="border-b text-center p-1">Addresss</p>
             <p className="border-b text-center p-1">Setting</p>
-            <p className="border-b text-center p-1">Log out</p>
+            <p className="border-b text-center p-1 opacity-80">Log out</p>
          </div>
       </section>
     </div>

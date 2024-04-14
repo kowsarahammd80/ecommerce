@@ -50,11 +50,11 @@ const Navbar = () => {
         </nav>
 
         <div className="ms-20">
-          <Link href="" className="navAvatar ms-4 me-3 lg:me-5 xl:me-5 md:me-4">
+          <Link href="" className="navAvatar ms-4 me-2 lg:me-5 xl:me-5 md:me-4">
             <svg
               className="mt-1"
               xmlns="http://www.w3.org/2000/svg"
-              width="25"
+              width="30"
               height="19"
               viewBox="0 0 20 19"
               fill="none"
@@ -71,11 +71,11 @@ const Navbar = () => {
             <span className="cartNoti px-1">2</span>
           </Link>
 
-          <Link href="" className="navAvatar me-3 lg:me-5 xl:me-5 md:me-4 ">
+          <Link href="" className="navAvatar me-2 lg:me-5 xl:me-5 md:me-4 ">
             <svg
               className="mt-1"
               xmlns="http://www.w3.org/2000/svg"
-              width="18"
+              width="30"
               height="21"
               viewBox="0 0 18 21"
               fill="none"
