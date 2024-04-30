@@ -9,8 +9,8 @@ const UserProfileLayOut = ({ children }) => {
             <UserProfileNav/>
         </div>
        <div className="col-span-1 lg:col-span-3 flex items-center">
-         <div>
-         {children}
+         <div className="w-full">
+          {children}
          </div>
        </div>
       </section>
