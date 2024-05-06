@@ -35,7 +35,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link className="navLink-hover" href="/theShop/2">
-            Shope
+            Shop
           </Link>
           <Link className="navLink-hover" href="/itemsArrival">
             Best Sell
@@ -50,7 +50,7 @@ const Navbar = () => {
         </nav>
 
         <div className="ms-20">
-          <Link href="" className="navAvatar ms-4 me-2 lg:me-5 xl:me-5 md:me-4">
+          <Link href="/wshlist" className="navAvatar ms-4 me-2 lg:me-5 xl:me-5 md:me-4">
             <svg
               className="mt-1"
               xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ const Navbar = () => {
             <span className="cartNoti px-1">2</span>
           </Link>
 
-          <Link href="" className="navAvatar me-2 lg:me-5 xl:me-5 md:me-4 ">
+          <Link href="/addToCart" className="navAvatar me-2 lg:me-5 xl:me-5 md:me-4 ">
             <svg
               className="mt-1"
               xmlns="http://www.w3.org/2000/svg"
