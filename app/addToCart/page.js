@@ -1,5 +1,6 @@
 import React from "react";
 import "./addToCard.css";
+import Link from "next/link";
 
 const AddToCart = () => {
   return (
@@ -72,10 +73,13 @@ const AddToCart = () => {
                 </tr>
               </tbody>
             </table>
-            <button className="my-5 bg-black text-white px-5 py-2 font-normal lg:font-semibold xl:font-semibold">
-              {" "}
-              <i class="fa-solid fa-arrow-left-long me-3"></i> Continue Shopping
-            </button>
+            <Link href="">
+              <button className="my-5 bg-black text-white px-5 py-2 font-normal lg:font-semibold xl:font-semibold">
+                {" "}
+                <i class="fa-solid fa-arrow-left-long me-3"></i> Continue
+                Shopping
+              </button>
+            </Link>
           </div>
 
           {/* total box */}

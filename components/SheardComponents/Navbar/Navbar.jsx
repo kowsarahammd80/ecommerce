@@ -38,9 +38,9 @@ const Navbar = () => {
             Shop
           </Link>
           <Link className="navLink-hover" href="/itemsArrival">
-            Best Sell
+            New Arrivals
           </Link>
-          <Link onClick={showNavbar} className="navLink-hover" href="">
+          <Link onClick={showNavbar} className="navLink-hover" href="/contact">
             Contact
           </Link>
 
@@ -50,7 +50,10 @@ const Navbar = () => {
         </nav>
 
         <div className="ms-20">
-          <Link href="/wshlist" className="navAvatar ms-4 me-2 lg:me-5 xl:me-5 md:me-4">
+          <Link
+            href="/wshlist"
+            className="navAvatar ms-4 me-2 lg:me-5 xl:me-5 md:me-4"
+          >
             <svg
               className="mt-1"
               xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +74,10 @@ const Navbar = () => {
             <span className="cartNoti px-1">2</span>
           </Link>
 
-          <Link href="/addToCart" className="navAvatar me-2 lg:me-5 xl:me-5 md:me-4 ">
+          <Link
+            href="/addToCart"
+            className="navAvatar me-2 lg:me-5 xl:me-5 md:me-4 "
+          >
             <svg
               className="mt-1"
               xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +94,10 @@ const Navbar = () => {
             <span className="cartNoti px-1">5</span>
           </Link>
 
-          <Link href="/userProfile" className="navAvatar me-4 lg:me-0 xl:me-0 md:me-0">
+          <Link
+            href="/userProfile"
+            className="navAvatar me-4 lg:me-0 xl:me-0 md:me-0"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
