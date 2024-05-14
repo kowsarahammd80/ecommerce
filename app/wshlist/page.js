@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 const WisListPage = () => {
 
@@ -72,10 +73,13 @@ const WisListPage = () => {
                   </tr>
                 </tbody>
               </table>
+              <Link href="/">
               <button className="my-5 bg-black text-white px-5 py-2 font-normal lg:font-semibold xl:font-semibold">
                 {" "}
-                <i class="fa-solid fa-arrow-left-long me-3"></i> Continue Shopping
+                <i class="fa-solid fa-arrow-left-long me-3"></i> Continue
+                Shopping
               </button>
+            </Link>
             </div>
   
             {/* total box */}
