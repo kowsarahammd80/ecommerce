@@ -94,7 +94,7 @@ const Navbar = () => {
             <span className="cartNoti px-1">5</span>
           </Link>
 
-          <Link
+          {/* <Link
             href="/userProfile"
             className="navAvatar me-4 lg:me-0 xl:me-0 md:me-0"
           >
@@ -132,6 +132,9 @@ const Navbar = () => {
                 </clipPath>
               </defs>
             </svg>
+          </Link> */}
+          <Link href="/login">
+             <button className="bg-black text-white px-1 md:px-2 xl:px-2 lg:px-2 ms-0 me-2 lg:me-0 xl:me-0 md:me-0 rounded">Login</button>
           </Link>
         </div>
         <button className="nav-btn" onClick={showNavbar}>
