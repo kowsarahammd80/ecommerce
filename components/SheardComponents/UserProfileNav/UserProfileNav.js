@@ -47,7 +47,7 @@ const UserProfileNav = () => {
             </p>
           </div>
         </Link>
-        <Link href="">
+        <Link href="/login">
           <div className="border-b">
             <p className="my-5 flex items-center opacity-40">
               <span className="text-2xl me-2">
@@ -76,7 +76,7 @@ const UserProfileNav = () => {
               <span className=""></span>Setting
             </p>
           </Link>
-          <Link href=''>
+          <Link href='/login'>
             <p className="border-b text-center p-1 opacity-45">
               Log out
             </p>

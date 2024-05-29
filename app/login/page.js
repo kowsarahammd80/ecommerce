@@ -21,7 +21,9 @@ const LogInPage = () => {
               className="input input-bordered w-full mb-4"
             />
             <p className="text-sm"> Lost your password ? </p>
+            <Link href='/userProfile'>
             <button className="bg-black text-white font-semibold mt-5 mb-4 w-full py-3 rounded">Login</button>
+            </Link>
             <Link href='/register' className="text-sm text-center">Not a mamber ? <span className="cursor-pointer font-semibold underline">Register</span></Link>
           </form>
         </div>

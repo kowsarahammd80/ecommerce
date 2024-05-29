@@ -33,7 +33,9 @@ const Register = () => {
               className="input input-bordered w-full mb-4"
             />
             <p className="text-sm"> Lost your password ? </p>
-            <button className="bg-black text-white font-semibold mt-5 mb-4 w-full py-3 rounded">Login</button>
+           <Link href='/login'>
+           <button className="bg-black text-white font-semibold mt-5 mb-4 w-full py-3 rounded">Register</button>
+           </Link>
             <Link href='/register' className="text-sm text-center">You are a mamber ? <span className="cursor-pointer font-semibold underline">Login now</span></Link>
           </form>
         </div>
